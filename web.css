@@ -20,6 +20,7 @@ body{
 #header ul li a{
     text-decoration: none;
     padding-bottom: 30px;
+    
 }
 #header ul li a:hover{
   border-bottom: 3px solid #192f19;
@@ -40,7 +41,7 @@ body{
     text-align: center;
     background: white;
     border-radius: 3px;
-    margin: 10px 400px;
+    margin: 80px 400px;
 }
 #features{
     display: inline-flex;
@@ -64,8 +65,8 @@ body{
     
 }
 #overlay{
-    background-image: url(4.jpg);
-    background-position: center;
+    background-image: url(6.jpg);
+    background-position: left;
     
 }
 #text1{
@@ -74,9 +75,19 @@ body{
     text-align: left;
     color: white;
     
-    background: rgba(0,0,255,0.2);
+    background: rgba(11, 11, 100, 0.8);
+}
+#p1{
+  color: rgb(76, 216, 76);
 } 
-
+#button1{
+  border: 0;
+  border-radius: 3px;
+  width: 120px;
+  height: 40px;
+  color: #ffffff;
+  background-color: rgb(76, 216, 76);
+}
 #box2{
     display: flex;
     width: 100%;
@@ -89,10 +100,10 @@ body{
 .text2{
     
     width: 100%;
-    background: rgba(0,0,255,0.4);
+    background: rgba(11, 11, 100, 0.8);
 }
 .text2 h2{
-    color: white;
+    color: rgb(76, 216, 76);
     text-align: left;
     padding: 100px 120px 60px 120px;
     font-size: 40px;
