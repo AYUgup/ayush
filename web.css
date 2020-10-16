@@ -3,12 +3,13 @@
     padding: 0;
 }
 body{
-    font-family: arial;
+    
 }
 #header li{
     text-decoration: none;
     list-style: none;
     text-align: center;
+    font-family: 'gotham';
 }
 #header ul{
     display: inline-flex;
@@ -27,6 +28,7 @@ body{
 }
 #header h2{
     padding: 15px;
+    font-family: 'gotham';
 }
 #header{
     justify-content: center;
@@ -54,6 +56,7 @@ body{
 #features h2{
     padding: 30px;
     font-size: 20px;
+    font-family: 'gotham';
 }
 #detail1{
     display: flex;
@@ -74,11 +77,12 @@ body{
     margin: auto;
     text-align: left;
     color: white;
-    
+    font-family: 'gotham';
     background: rgba(11, 11, 100, 0.8);
 }
 #p1{
   color: rgb(76, 216, 76);
+  font-family: 'gotham';
 } 
 #button1{
   border: 0;
@@ -87,6 +91,7 @@ body{
   height: 40px;
   color: #ffffff;
   background-color: rgb(76, 216, 76);
+  font-family: 'gotham';
 }
 #box2{
     display: flex;
@@ -107,12 +112,14 @@ body{
     text-align: left;
     padding: 100px 120px 60px 120px;
     font-size: 40px;
+    font-family: 'gotham';
     
 }
 .text2 p{
     color: white;
     text-align: left;
     padding: 20px 110px;
+    font-family: 'gotham';
 }
 #box3{
     display: flex;
@@ -123,9 +130,11 @@ body{
     padding: 110px;
     margin: auto;
     color: white;
+    font-family: 'gotham';
 }
 .text3 p{
     color: grey;
+    font-family: 'gotham';
 }
 .text3 img{
   height: 50px;
@@ -146,15 +155,20 @@ body{
   margin: auto;
   padding: 50px;
 }
+#main-event{
+  padding: 20px 0;
+}
 #main-event img{
   height: 200px;
   padding: 0 20px;
 }
 #main-event h2{
   padding: 30px 20px 10px 20px;
+  font-family: 'gotham';
 }
 #main-event p{
-  padding: 10px 20px;
+  padding: 5px 40px 40px 20px;
+  font-family: 'gotham';
 }
 #button3{
   border: 0;
@@ -164,12 +178,13 @@ body{
   width: 222px;
   height: 50px;
   margin: 0px auto 0px 20px;
+  font-family: 'gotham';
 }
 #upcoming{
   display: flex;
   flex-direction: column;
   align-items: left;
-  
+  font-family: 'gotham';
   
 }
 .events{
@@ -187,6 +202,7 @@ body{
 }
 .e1 h2{
   color:rgb(53, 167, 53) ;
+  font-family: 'gotham';
 }
 .e2{
   padding: 12px 20px;
@@ -212,11 +228,13 @@ body{
   color: white;
   padding: 20px 30px;
   font-size: 30px;
+  font-family: 'gotham';
 }
 #signup h3{
   color: rgb(184, 184, 184);
   padding: 1px 30px 60px 30px;
   font-size: 18px;
+  font-family: 'gotham';
 }
 #signup p{
   color: white;
@@ -225,6 +243,7 @@ body{
   background: #081a42;
   margin: 10px 25px;
   border-radius: 3px;
+  
 }
 #button2{
   border: 0;
@@ -234,6 +253,7 @@ body{
   width: 322px;
   height: 54px;
   margin: 0px auto 20px auto;
+  font-family: 'gotham';
 }
 
 /*.box5{
