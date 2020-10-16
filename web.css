@@ -137,6 +137,85 @@ body{
     
 
 }
+#news{
+  background-color: whitesmoke;
+}
+#newsletter{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding: 50px;
+}
+#upcoming{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  
+  
+}
+.events{
+  padding: 30px 20px;
+  border-top: 2px solid rgb(6, 12, 107);
+}
+.event{
+  display: inline-flex;
+  padding: 20px 0;
+  
+}
+.e1{
+  padding: 10px 20px 0px 20px;
+  border-bottom: 4px solid rgb(53, 167, 53);
+}
+.e1 h2{
+  color:rgb(53, 167, 53) ;
+}
+.e2{
+  padding: 12px 20px;
+  font-size: 20px;
+}
+.e2 a{
+  color: #081a42;
+  text-decoration: none;
+}
+.e2 a:hover{
+  color: #081a42;
+  text-decoration: none;
+}
+#signup{
+  background-color: #1c3261;
+  text-align: center;
+}
+#signup img{
+  height: 200px;
+  padding-top: 80px;
+}
+#signup h2{
+  color: white;
+  padding: 20px 30px;
+  font-size: 30px;
+}
+#signup h3{
+  color: rgb(184, 184, 184);
+  padding: 1px 30px 60px 30px;
+  font-size: 18px;
+}
+#signup p{
+  color: white;
+  padding: 20px 30px;
+  text-align: left;
+  background: #081a42;
+  margin: 10px 25px;
+  border-radius: 3px;
+}
+#button2{
+  border: 0;
+  border-radius: 3px;
+  background: rgb(53, 167, 53) ;
+  color: white;
+  width: 322px;
+  height: 54px;
+  margin: 0px auto 20px auto;
+}
 
 /*.box5{
   box-sizing: border-box;
@@ -435,10 +514,10 @@ footer{
     background-repeat: no-repeat;
   }
 
-  /*.imgbanbtn {
+  .imgbanbtn {
     width:40px;
     height: 40px;
-    background: #000;
+    background: rgba(0, 0, 0, .2);
     border-radius: 4px;
     position: absolute;
     top: 180px;
@@ -449,12 +528,14 @@ footer{
 
   .imgbanbtn:hover {
     opacity: 0.9;
+    
   }
 
   .imgbanbtn-prev{
     left: 5px;
     margin-top: 10%;
-    background-image: url(img.jpg);
+    background-image: url(arrow.png);
+    transform: rotate(180deg);
     background-size: 60%;
     background-position: center;
     background-repeat: no-repeat;
@@ -463,12 +544,12 @@ footer{
   .imgbanbtn-next{
     right: 5px;
     margin-top: 10%;
-    background-image: url(img.jpg);
-    transform: rotate(180deg);
+    background-image: url(arrow.png);
+    
     background-size: 60%;
     background-position: center;
     background-repeat: no-repeat;
-  }*/
+  }
 
 /*  .bg{
     background:  rgba(0,0,0,0.8);    
