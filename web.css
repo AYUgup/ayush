@@ -54,7 +54,7 @@ body{
   height: 40px;
 }
 #features h2{
-    padding: 30px;
+    padding: 20px 30px;
     font-size: 20px;
     font-family: 'gotham';
 }
@@ -64,7 +64,7 @@ body{
     margin: auto;
 }
 #detail1 img{
-    height: 400px;
+    height: 450px;
     
 }
 #overlay{
@@ -72,8 +72,9 @@ body{
     background-position: left;
     
 }
+
 #text1{
-    padding: 100px 60px;
+    padding: 106px 60px;
     margin: auto;
     text-align: left;
     color: white;
@@ -172,11 +173,11 @@ body{
   padding: 0 20px;
 }
 #main-event h2{
-  padding: 30px 20px 10px 20px;
+  padding: 24px 20px 10px 20px;
   font-family: 'gotham';
 }
 #main-event p{
-  padding: 5px 40px 40px 20px;
+  padding: 5px 40px 20px 20px;
   font-family: 'gotham';
 }
 #button3{
