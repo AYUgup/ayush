@@ -1,0 +1,41 @@
+.main-banner {
+    height: 40rem;
+}
+#box1 {
+    margin: 80px auto;
+}
+#detail1 img {
+    height: 690px;
+}
+#overlay {
+    margin: 0 77px;
+}
+#detail1 {
+    display: block;
+}
+#box2{
+    display: block;
+    height: 688px;
+
+}
+#box2 p{
+    margin-bottom: 0;
+}
+.text2 h2{
+    padding: 70px 120px 30px 120px;
+}
+.text2 p{
+    padding: 40px 110px;
+}
+#box3{
+    display: block;
+}
+.text3{
+    padding: 50px 180px;
+}
+#vid {
+    height: 308px;
+}
+#newsletter {
+    display: grid;  
+}
